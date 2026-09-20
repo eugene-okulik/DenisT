@@ -1,6 +1,9 @@
-my_dict = {"tuple": ("yes", "no", 3, 42, 10) , "list": [4.2, 5, 8, 11, 35, "dog", "cat"
-],  "dict": {"fruit":"apple", "animals": "dog", "car": "Toyota", 5: 76, 4.42: "names"
-}, "set": {2, 10, "Anna", 5.33, None, "public_key"}}
+my_dict = {"tuple": ("yes", "no", 3, 42, 10),
+           "list": [4.2, 5, 8, 11, 35, "dog", "cat"
+                    ],
+           "dict": {"fruit": "apple", "animals": "dog", "car": "Toyota", 5: 76, 4.42: "names"
+                    },
+           "set": {2, 10, "Anna", 5.33, None, "public_key"}}
 
 print(my_dict["tuple"][-1])  # Выводим последний элемент для ключа "tuple"
 my_dict["list"].append("mouse")  # Добавляем еще один элемент в конец ключа "list"
