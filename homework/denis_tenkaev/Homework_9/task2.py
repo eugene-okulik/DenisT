@@ -5,4 +5,4 @@ hot_days = list(filter(lambda x: x > 28, temperatures))
 print(
     f"Min temp is {min(hot_days)}, max temp is {max(hot_days)}"
     f"and avg temp is {(sum(hot_days)/len(hot_days)):.1f}"
-    )
+)
