@@ -40,7 +40,7 @@ def printing(book):
         f"Название: {book.title}, Автор: {book.author}, "
         f"страниц: {book.pages}, предмет: {book.subject}, класс: {book.group}"
         f"{', зарезервирована' if book.reserved is True else ''}"
-)
+    )
 
 
 printing(english_book)
