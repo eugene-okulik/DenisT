@@ -34,7 +34,7 @@ def printing(book):
     print(
         f"Название: {book.title}, Автор: {book.author}, "
         f"страниц: {book.pages}, материал: {Book.page_material}"
-        f"{", зарезервирована" if book.reserved is True else ""}"
+        f"{', зарезервирована' if book.reserved is True else ''}"
     )
 
 
