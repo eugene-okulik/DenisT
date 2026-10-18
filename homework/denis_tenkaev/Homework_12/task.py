@@ -44,9 +44,10 @@ class Roses(Flower):
 
     def __str__(self):
         return (f"{self.name}: color is {self.color},"
-        f"выращен в {self.country},"
-        f"price is {self.price}rub, lifetime {self.lifetime} days,"
-        f"height {self.height} cm")
+                f"выращен в {self.country},"
+                f"price is {self.price}rub, lifetime {self.lifetime} days,"
+                f"height {self.height} cm"
+                )
 
     def __repr__(self):
         return self.__str__()
@@ -61,9 +62,10 @@ class Tulips(Flower):
 
     def __str__(self):
         return (f"{self.name}: color is {self.color},"
-        f"выращен в {self.country},"
-        f"price is {self.price}rub, lifetime {self.lifetime} days,"
-        f"height {self.height} cm")
+                f"выращен в {self.country},"
+                f"price is {self.price}rub, lifetime {self.lifetime} days,"
+                f"height {self.height} cm"
+                )
 
     def __repr__(self):
         return self.__str__()
@@ -75,8 +77,9 @@ class WildFlowers(Flower):
 
     def __str__(self):
         return (f"Wild Flower - {self.name}: color is {self.color},"
-        f"price is {self.price}rub, lifetime {self.lifetime} days,"
-        f" height {self.height} cm")
+                f"price is {self.price}rub, lifetime {self.lifetime} days,"
+                f" height {self.height} cm"
+                )
 
     def __repr__(self):
         return self.__str__()
